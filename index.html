@@ -1,0 +1,100 @@
+<!-- <button class="toggle-btn">Toggle dark mode</button> -->
+<!doctype html>
+
+<html>
+<head>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DYY58304CN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DYY58304CN');
+</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Coffee Shop</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/DarkMode.js"></script>
+<body>
+	<div id="header">
+		<div class="toggle-container">
+			<label class="switch">
+			  <input type="checkbox" id="toggle" onclick="toggleDarkMode()">
+			  <span class="slider round"></span>
+			</label>
+			<p>Dark Mode</p>
+		  </div>
+		<a href="index.html" class="logo">
+			<img src="images/LogoCoffee.png" alt="">
+		</a>
+		<ul id="navigation">
+			<li class="selected">
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+			<li>
+				<a href="blog.html">serving</a>
+			</li>
+			<li>
+				<a href="contact.html">contact</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<div id="featured">
+			<img src="images/Background.jpg" alt="">
+			<div>
+				<h2>Your Coffee Dose</h2>
+				<span>Welcome to our coffee shop</span>
+				<span>Carefully curated selection features a variety of roasts and blends</span>
+				<span>Our knowledgeable staff is always on hand to assist you in selecting the perfect coffee for your taste.</span>
+				
+			</div>
+		</div>
+		<ul>
+			<li>
+				<a href="BrazilCoffee.html">
+					<img src="images/brazil.png" alt="">
+					<span>Brazil</span>
+				</a>
+			</li>
+			<li>
+				<a href="ColumbiaCoffee.html">
+					<img src="images/Columbia.png" alt="">
+					<span>Columbia</span>
+				</a>
+			</li>
+			<li>
+				<a href="GuatemalaCoffee.html">
+					<img src="images/Guatemala.png" alt="">
+					<span>Guatemala</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy; 2023 by TheCoffeeShop. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="#" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="#" id="facebook">facebook</a>
+				</li>
+				
+				<li>
+					<a href="#" id="pinterest">pinterest</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+</body>
+
+</html>
